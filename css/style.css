@@ -1,0 +1,379 @@
+* {
+	padding:0em;
+	margin:0;
+	font-size:100%;
+	line-height:1em;}
+
+body { 
+    max-width:100%;
+    min-height:100%;
+    font-size:1em;
+    font-family: 'Lora', serif;
+    margin:auto;
+    line-height:1em;
+    overflow-x:hidden;
+    background:#FFF;}
+
+p{  text-align:left; 
+    font-family:'Open Sans',sans-serif;
+    padding-bottom:.75em;
+	margin-left:23%;
+	margin-right:23%;
+	padding-top:.75em;
+	line-height:1.5em;
+	font-size:1em;
+	color:#32363b;}
+
+.book{color:#5d9ff4;}
+
+/*---Headings---*/
+
+h1{font-family: 'Baloo', cursive;
+    color:#FFFFFF;
+    text-align:left;
+    font-size:4em;
+    padding:18% 12% 1% 37%;}
+
+.proposal-h1{font-family:'Open Sans',sans-serif; 
+            color:#5d9ff4;
+            padding:7% 12% 3% 23%;}
+
+h2 {font-family:'Open Sans',sans-serif;
+    font-weight:normal;
+    color:#FFFFFF;
+    text-align:left;
+    font-size:2em;
+    line-height:1.2em;
+    padding:1% 12% 5% 37%;}
+
+.proposal-h2{color:#32363b; padding:1% 23% 0% 23%;}
+
+h3 {font-family:'Open Sans',sans-serif;
+	font-size:1.1em;
+	line-height:1.2em;
+	text-align:left;
+    font-weight:normal;
+	color:#111;
+    padding:1em 23% 0% 23%}
+
+h4 {font-family:'Open Sans',sans-serif;
+	font-size:2em;
+    font-weight:bold;
+	text-align:left;
+    font-weight:normal;
+	color:#f0556c;
+    padding:7% 23% 1% 23%;}
+
+/*---Nav---*/
+
+.sidebar{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:#111;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top:100px;}
+
+.sidebar a {font-family:'Open Sans',sans-serif;
+    padding:15px 8px 15px 10px;
+    text-decoration:none;
+    font-size:16px;
+    color:#FFFFFF;
+    display:block;
+    transition:0.3s;}
+
+.sidebar a:hover{color:#f0556c;}
+
+.sidebar .closebtn{
+    position:absolute;
+    top:0;
+    right:25px;
+    font-size:36px;
+    margin-left:50px;}
+
+.openbtn{
+    font-size:25px;
+    cursor:pointer;
+    background-color:;
+    color:#111;
+    padding:10px 15px;
+    border:none;}
+
+.openbtn:hover{background-color:#444;}
+
+/*---Header---*/
+
+.phone-header{float:left; width:25%; margin-left:8%; margin-top:8%;}
+
+/*---Parallax---*/
+
+.scrolling{z-index:2;}
+
+/*---Reactions---*/
+
+.box-grid{padding:1.5em 3% 2.5em 3%;}
+
+.box{width:2.5em;} 
+
+.social {list-style-type:none; margin:0; padding:1em 0em 0em 0em; text-align:center;}
+
+.social .item {display:inline-block; margin:0 1em 0em 0; position:relative;}
+
+.hover {transition:transform.2s;}
+
+.hover:hover {-ms-transform:scale(1.3); -webkit-transform:scale(1.3); transform:scale(1.3);}
+
+/*---Images---*/
+
+.phone{text-align:center; font-size:5em; padding-top:.2em; padding-bottom:.2em;}
+
+.cigs-alcho{text-align:center; font-size:4em; padding-top:.2em; padding-bottom:.2em;}
+
+.heart{width:4%; margin:2em 48% 2em 48%;}
+
+.maslow{width:20%; margin:2em 40% 2em 40%;}
+
+.streak{width:3%; margin:3em 47% 2em 48%;}
+
+.selfie-likes{width:4%; margin:2em 48% 2em 48%;}
+
+.screentime{width:4%; margin:1.5em 48% 2em 48%;}
+
+.body-image{width:14%; margin:2em 43% 2em 43%;}
+
+/*---Instagram Caption---*/
+
+.instagram-caption{margin-left:27%;
+                margin-right:27%; 
+                border-left:1px solid #bec3c9; 
+                border-right:1px solid #bec3c9; 
+                border-bottom:1px solid #bec3c9; 
+                margin-bottom:3em;}
+        
+.instagram-image{width:46%; margin-left:27%; margin-right:27%; padding-top:3em; margin-bottom:-.099em;}
+
+.instagram-bar{width:100%;}
+        
+.likes{font-family:'Open Sans',sans-serif;
+    padding-bottom:.1em;
+	margin-left:2.5%;
+	margin-right:2%;
+	padding-top:.5em;}
+        
+.caption{font-family:'Open Sans',sans-serif;
+    padding-bottom:1em;
+	margin-left:2.5%;
+	margin-right:2%;
+	padding-top:.5em;}
+
+
+/*---Pulse---*/
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform:scale(1.0);
+  }
+  50% {
+    -webkit-transform:scale(0.80);
+    opacity: 1.0;
+  }
+  to {
+    -webkit-transform:scale(1.0);
+  }
+}
+
+img.pulse {
+  -webkit-animation-name:pulse;
+  -webkit-animation-duration:1.5s;
+  -webkit-animation-iteration-count:infinite;
+}
+
+/*---Bibliography---*/
+
+.bullet-list{width:1.25%; padding-right:.75em; padding-bottom:.1em;}
+
+.bio-list{list-style-type: none;}
+
+.list-item{
+    text-align:left; 
+    font-family:'Open Sans',sans-serif;
+    padding-bottom:.75em;
+	margin-left:23.5%;
+	margin-right:23%;
+	padding-top:.75em;
+	line-height:1.5em;
+	font-size:1em;
+	color:#32363b;}
+
+.list-item a{color:#32363b;}
+
+.list-item a:hover{color:#f0556c;}
+
+
+/*---Footer---*/
+
+.foot{background-color:#FFFFFF; margin-bottom:2%;}
+
+footer{font-family:'Open Sans',sans-serif;
+        position:relative; 
+        bottom:0; 
+        font-size:.9em; 
+        color:#f0556c; 
+        text-align:right; 
+        left:0; margin:0; 
+        width:100%; 
+        text-decoration:none;}
+
+.fixed{position:fixed;}
+
+a{text-decoration:none;}
+
+.leah-link{padding-bottom:1.1em; padding-top:1.5em;}
+
+.leah-link a{color:#010030; padding-right:2%;}
+
+.leah-link a:hover{color:#5d9ff4;}
+
+
+/*----MEDIA QUERIES-----*/
+
+/*---TABLET---*/
+
+@media (max-width:979px) {
+
+p{font-size:.9em; margin-left:15%; margin-right:15%; }
+
+/*---Headings---*/
+
+h1{font-size:2.5em; padding:19% 20% 1% 35%;}
+
+h2 {font-size:1.25em; padding:1% 20% 5% 35%;}
+
+h3 {font-size:1em; padding:1em 15% 0% 15%}
+
+h4 {font-size:1.3em;
+    font-weight:bold;
+	text-align:left;
+    font-weight:normal;
+	color:#f0556c;
+    padding:5% 15% 1% 15%;}
+
+/*---Header---*/
+
+.phone-header{ width:40%; margin-left:27%; margin-right:27%;}
+
+/*---Parallax---*/
+
+.scrolling{z-index:2;}
+
+/*---Reactions---*/
+
+.box-grid{padding:1em 3% 1em 3%;}
+
+.box{width:3em;} 
+
+/*---Images---*/
+
+.phone{font-size:3em; padding-top:.1em; padding-bottom:.1em;}
+
+.cigs-alcho{font-size:3em; padding-top:.2em; padding-bottom:.2em;}
+
+.heart{width:10%; margin:1em 45% 1em 45%;}
+
+.maslow{width:40%; margin:1em 30% 1em 30%;}
+
+.streak{width:12%; margin:2em 44% 1em 44%;}
+
+.selfie-likes{width:12%; margin:1em 44% 1em 44%;}
+
+.screentime{width:12%; margin:1em 44% 1em 44%;}
+
+.body-image{width:20%; margin:1em 40% 1em 40%;}
+
+/*---Instagram Caption---*/
+
+.instagram-caption{margin-left:17%; margin-right:17%; margin-bottom:1em;}
+        
+.instagram-image{width:66%; margin-left:17%; margin-right:17%; padding-top:1em;}
+        
+
+/*---Bibliography---*/
+
+.bullet-list{width:2%;}
+
+.list-item{margin-left:17%; margin-right:17%; font-size:.9em;}
+
+/*---Footer---*/
+
+footer{font-size:.7em;}
+}
+	
+/*---SMARTPHONE---*/
+
+@media (max-width:414px) {
+
+p{font-size:.9em; margin-left:15%; margin-right:15%; }
+
+/*---Headings---*/
+
+h1{ font-size:4em; padding:1.5em 10% 0 10%; text-align:center;}
+
+h2 {font-size:1.3em; padding:2em 10% 0 10%;}
+
+h3 {font-size:1em; padding:3% 15% 1% 15%;}
+
+h4 {font-size:1.5em; padding:7% 15% 1% 15%;}
+
+/*---Header---*/
+
+.phone-header{width:50%; margin-left:25%; margin-bottom:8%;}
+
+/*---Reactions---*/
+
+.box-grid{padding:.5em 2% .5em 2%;}
+
+.box{width:1.5em;} 
+
+.social .item {margin:0 .5em 0em 0;}
+
+/*---Images---*/
+
+.phone{font-size:4em; padding-top:.1em; padding-bottom:.1em;}
+
+.cigs-alcho{font-size:4em; padding-top:.2em; padding-bottom:.2em;}
+
+.heart{width:10%; margin:1em 45% 1em 45%;}
+
+.maslow{width:50%; margin:1em 25% 1em 25%;}
+
+.streak{width:8%; margin:1em 46% 1em 46%;}
+
+.selfie-likes{width:12%; margin:1em 41% 1em 41%;}
+
+.screentime{width:12%; margin:1em 41% 1em 41%;}
+
+.body-image{width:30%; margin:1em 35% 1em 35%;}
+
+/*---Instagram Caption---*/
+
+.instagram-caption{margin-left:17%; margin-right:17%; margin-bottom:1em;}
+        
+.instagram-image{width:66%; margin-left:17%; margin-right:17%; padding-top:1em;}
+
+/*---Bibliography---*/
+    
+.bio-list{margin-left:0%; margin-right:5%;}
+
+.bullet-list{width:2.5%;}
+
+.list-item{font-size:.9em;}
+
+/*---Footer---*/
+
+footer{font-size:.7em;}
+    
+}
